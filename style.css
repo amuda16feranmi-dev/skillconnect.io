@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 20px;
+}
+body {
+    color: white;
+    text-align: left;
+    margin: 20px;
+}
+
+p {
+    background-color: transparent;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+.footer {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.btn {
+    background-color: purple; /* Button color */
+    color: white;                /* Text color */
+    padding: 10px 10px;          /* Space inside */
+    border: none;                /* Remove border */
+    border-radius: 5px;          /* Rounded corners */
+    cursor: pointer;             /* Pointer on hover */
+    font-size: 10px;
+}
+
+.btn:hover {
+    background-color: purple; /* Color when hovered */
+}

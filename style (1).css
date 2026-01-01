@@ -1,0 +1,30 @@
+.header {
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+body {
+    background-color: white;
+    color: black;
+    padding: 15px;
+    font-family: Georgia;
+}
+.footer {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.btn {
+    background-color: purple; /* Button color */
+    color: white;                /* Text color */
+    padding: 10px 10px;          /* Space inside */
+    border: none;                /* Remove border */
+    border-radius: 5px;          /* Rounded corners */
+    cursor: pointer;             /* Pointer on hover */
+    font-size: 10px;
+}
+
+.btn:hover {
+    background-color: purple; /* Color when hovered */
+}
